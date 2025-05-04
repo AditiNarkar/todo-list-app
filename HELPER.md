@@ -1,4 +1,15 @@
-# 🚀 CI/CD Deployment from GitHub to AWS EC2 using GitHub Actions
+# 🚀 CI/CD Deployment from GitHub to AWS EC2 / Digital Ocean
+
+```bash
+        mac
+    (pub, priv)
+        ⬇️
+  deploying machine
+      (pub)
+        ⬆️
+      github
+      (priv)
+```
 
 This guide documents the full process to set up continuous deployment from a GitHub repo to an AWS EC2 instance using GitHub Actions.
 
