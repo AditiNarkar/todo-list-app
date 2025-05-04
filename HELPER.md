@@ -32,16 +32,18 @@ ssh-keygen -t rsa -C "adt-test-1"
 chmod 700 adt-test-1
 ```
 
-### Copy private key to EC2 (if created):
+### Start EC2 with private key :
+
+(if created)
 
 ```bash
-ssh -i ~/.ssh/adt-test-1.pem ubuntu@<EC2_PUBLIC_IP>
+ ssh -i ~/.ssh/adt-test-1.pem ubuntu@<EC2_PUBLIC_IP>
 ```
 
-## (if downloaded):
+(if downloaded)
 
 ```bash
-ssh -i adt-test-1.pub ubuntu@<EC2_PUBLIC_IP>
+ssh -i adt-test-1 ubuntu@<EC2_PUBLIC_IP>
 ```
 
 ## 🛠️ 3. Set Up Node.js App on EC2
